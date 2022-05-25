@@ -28,6 +28,12 @@ ul{
     color: white;
 }
 
+h2{
+    color: orangered;
+    padding: 150px;
+    font-size: 80px;
+    text-shadow: 2px 2px black;
+}
 header a{
     padding: 20px;
     text-transform: uppercase;
