@@ -2,21 +2,22 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-
-    
-
 }
 
 header{
     background-color: #2A4059;
     width: 100%;
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
+    border-bottom: 5px solid white;
+
     
 }
 
-div .h1{
-    float: left;
+ h1{
+
+    color: orangered;
+    font-size: 50px;
     
 }
 
@@ -79,7 +80,15 @@ span{
 .main .box{
     height: 60%;
     width:300px;
-    }
+    }   
+
+.bodytitle{
+    text-align: center;
+    padding: 20px;
+    color: orangered;
+    background-color:#2A4059;
+    font-size: 23px;
+}
 
 .footer{
         height: 200px;
@@ -99,14 +108,3 @@ span{
 .footer ul a{
         padding: 20px;
     }
-h2{
-     padding: 150px;
-     font-size: 80px;
-     color: orangered;
-     text-shadow: 5px 5px black;
-  
- }
-
-h1{
-    color: orangered;
-}
